@@ -12,7 +12,11 @@ And I added a method to exchange channels.
 * Test image from:
 [UIEB dataset](https://li-chongyi.github.io/proj_benchmark.html)
 # Preview
+![img 1](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/38.png_reslut.jpg)
 
+![img 2](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/906_img_.png_reslut.jpg)
+
+![img 3](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/91_img_.png_reslut.jpg)
 
 # How to run the code
 * Requirements:
