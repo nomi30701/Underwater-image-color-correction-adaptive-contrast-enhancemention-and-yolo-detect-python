@@ -26,19 +26,19 @@ If you want to change the model please open the `main.py` file.
 
 This repo provides models for detecting single sea turtles and sea urchins.
 
-* Requirements:
+Requirements:
 ```
 pip install -r requirements.txt
 ```
-If you want to use gpu for object detection, please install gpu version pytorch
+> If you want to use gpu for object detection, please install gpu version pytorch
 
 
-* Run the code (For image, no detect object):
+Run the code (For image, no detect object):
 ```
 python main.py
 ```
 
-* Change to video, detect object, parameter beta 
+Change to video, detect object, parameter beta 
 
     - Default: --type img --detect False --beta 1.5
 ```
