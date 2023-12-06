@@ -28,7 +28,6 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-![img 1](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Input/906_img_.png)
 
 * Change to video, detect object, parameter beta 
 
