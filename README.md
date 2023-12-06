@@ -11,6 +11,7 @@ And I added a method to exchange channels.
 
 * Test image from:
 [UIEB dataset](https://li-chongyi.github.io/proj_benchmark.html)
+
 # Preview
 ![img 1](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/38.png_reslut.jpg)
 
@@ -29,6 +30,8 @@ This repo provides models for detecting single sea turtles and sea urchins.
 ```
 pip install -r requirements.txt
 ```
+If you want to use gpu for object detection, please install gpu version pytorch
+
 
 * Run the code (For image, no detect object):
 ```
