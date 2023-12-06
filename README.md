@@ -18,7 +18,13 @@ And I added a method to exchange channels.
 
 ![img 3](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/91_img_.png_reslut.jpg)
 
-# How to run the code
+# How to use and requirements
+Put the image or .mp4 in the `Input` folder.
+
+If you want to change the model please open the main.py file.
+
+This repo provides models for detecting single sea turtles and sea urchins.
+
 * Requirements:
 ```
 pip install -r requirements.txt
@@ -30,8 +36,7 @@ python main.py
 ```
 
 * Change to video, detect object, parameter beta 
-
-Default: --type img --detect False --beta 1.5
+    -Default: --type img --detect False --beta 1.5
 ```
 python main.py --type video --detect True --beta 2
 ```
