@@ -36,6 +36,7 @@ python main.py
 ```
 
 * Change to video, detect object, parameter beta 
+
     -Default: --type img --detect False --beta 1.5
 ```
 python main.py --type video --detect True --beta 2
