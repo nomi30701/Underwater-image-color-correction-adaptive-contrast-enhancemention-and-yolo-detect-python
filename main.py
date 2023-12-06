@@ -1,6 +1,6 @@
 import os
 import glob
-import argparse 
+import argparse
 import cv2
 from ultralytics import YOLO
 from MLLE import LACC, LACE
