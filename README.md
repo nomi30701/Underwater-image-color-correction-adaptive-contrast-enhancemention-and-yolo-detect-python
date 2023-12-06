@@ -21,7 +21,7 @@ And I added a method to exchange channels.
 # How to use and requirements
 Put the image or .mp4 in the `Input` folder.
 
-If you want to change the model please open the main.py file.
+If you want to change the model please open the `main.py` file.
 
 This repo provides models for detecting single sea turtles and sea urchins.
 
