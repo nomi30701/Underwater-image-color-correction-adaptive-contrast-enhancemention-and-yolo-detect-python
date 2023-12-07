@@ -64,14 +64,11 @@ python main.py --type video --mlle --detect --beta [int]
 or
 
 ```
-python main.py  -t vid -m -d -b 2
+python main.py  -t vid -m -d -b [int]
 ```
 
 parameters: 
-   - --type video
-   - --type vid
-   - --type image
-   - --type img
+   - --type or -t ['img', 'image', 'vid', 'video']
 
    - --mlle
    - -m
