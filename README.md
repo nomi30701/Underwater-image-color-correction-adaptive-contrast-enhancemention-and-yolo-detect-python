@@ -44,6 +44,7 @@ You can use yourself model supported by ultralytics.
 
 # Usage example
 **Using the command line interface (CLI)**
+
 Use MLLE for image
 ```
 python main.py --mlle
