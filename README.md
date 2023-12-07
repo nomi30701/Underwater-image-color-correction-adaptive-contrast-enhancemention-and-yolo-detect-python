@@ -1,7 +1,7 @@
 # Underwater image correct and adaptive contrast enhancemention python
 The original uses matlab and it p-code.
 I used python to restore more than 80% of the algorithms in the paper.
-And I added a method to exchange wrong channels.
+And added a method to exchange wrong channels.
 
 * Paper:
 [Underwater Image Enhancement via Minimal Color Loss and Locally Adaptive Contrast Enhancement](https://ieeexplore.ieee.org/document/9788535).
