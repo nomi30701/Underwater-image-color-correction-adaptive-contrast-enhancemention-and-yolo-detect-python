@@ -19,28 +19,40 @@ And I added a method to exchange channels.
 
 ![img 3](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/91_img_.png_reslut.jpg)
 
-# How to use and requirements
-Put the image or .mp4 in the `Input` folder.
-
-If you want to change the model please open the `main.py` file.
-
-This repo provides models for detecting single sea turtles and sea urchins.
-
-Requirements:
+# Requirements
 ```
 pip install -r requirements.txt
 ```
-> If you want to use gpu for object detection, please install gpu version pytorch
+> If you want to use gpu for object detection, please install `gpu version` [pytorch](https://pytorch.org/).
 
+# How to use
+Put the image(.jpg .png) or .mp4 in the `Input` folder.
 
-Run the code (For image, no detect object):
+If you want to change the model please open the `main.py` file.
+
+This repo provides models for detecting sea turtles and sea urchins.
+
+You can use model supported by ultralytics.
+
+# Usage example
+** Using the command line interface (CLI) **
 ```
 python main.py
 ```
 
-Change to video, detect object, parameter beta 
+To change process video, detect object by yolo, beta
 
-    - Default: --type img --detect False --beta 1.5
 ```
 python main.py --type video --detect True --beta 2
 ```
+
+or
+
+```
+python main.py -t vid -d True -b 2
+```
+
+Default parameters:
+* --type img 
+* --detect False
+* --beta 1.5

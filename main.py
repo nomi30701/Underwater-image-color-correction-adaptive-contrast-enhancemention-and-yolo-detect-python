@@ -3,13 +3,13 @@ import glob
 import argparse
 import cv2
 from ultralytics import YOLO
-from MLLE import LACC, LACE
+from MLLE.LACC import LACC
+from MLLE.LACE import LACE
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--type', type=str, default='img')
-parser.add_argument('--detect', type=bool, default=False)
-parser.add_argument('--beta', type=float, default=1.5)
-
+parser.add_argument('-t', '--type', type=str, default='img', choices=['image', 'img', 'video', 'vid'])
+parser.add_argument('-d', '--detect', type=bool, default=False)
+parser.add_argument('-b', '--beta', type=float, default=1.5)
 args = parser.parse_args()
 
 def run():
@@ -18,7 +18,7 @@ def run():
     model = YOLO('./model/urchin.pt')  ## Change model here ###
     
     ## img
-    if args.type == 'img':
+    if args.type in ['img', 'image']:
         image_files = glob.glob(os.path.join(folder_path, '*.png')) + \
                     glob.glob(os.path.join(folder_path, '*.jpg'))
         for img_path in image_files:
@@ -32,7 +32,7 @@ def run():
             print(f'Image {img_path} Done!!!')
     
     ## video
-    elif args.type == 'video':
+    elif args.type in ['video', 'vid']:
         files = glob.glob(os.path.join(folder_path, '*.mp4'))
         for path in files:
             is_run = False
