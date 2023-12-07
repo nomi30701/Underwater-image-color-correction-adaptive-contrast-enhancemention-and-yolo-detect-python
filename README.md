@@ -68,16 +68,16 @@ python main.py  -t vid -m -d -b 2
 ```
 
 parameters: 
-   - * --type video
-   - * --type vid
-   - * --type image
-   - * --type img
+   - --type video
+   - --type vid
+   - --type image
+   - --type img
 
-   - * --mlle
-   - * -m
+   - --mlle
+   - -m
 
-   - * --detect
-   - * -d
+   - --detect
+   - -d
 
-   - * --beta [int]
-   - * -b [int]
+   - --beta [int]
+   - -b [int]
