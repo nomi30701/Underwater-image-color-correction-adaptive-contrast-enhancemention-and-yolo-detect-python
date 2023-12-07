@@ -13,7 +13,7 @@ And I added a method to exchange channels.
 [UIEB dataset](https://li-chongyi.github.io/proj_benchmark.html)
 
 # Preview
-![img 1](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/38.png_reslut.jpg)
+<img src="https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/38.png_reslut.jpg" height="240px" width="160px" />
 
 ![img 2](https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/906_img_.png_reslut.jpg)
 
