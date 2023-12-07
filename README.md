@@ -44,23 +44,40 @@ You can use yourself model supported by ultralytics.
 
 # Usage example
 **Using the command line interface (CLI)**
+Use MLLE for image
 ```
-python main.py
-```
-
-To change process video, detect object by yolo, beta
-
-```
-python main.py --type video --detect True --beta 2
+python main.py --mlle
 ```
 
 or
 
 ```
-python main.py -t vid -d True -b 2
+python main.py -m
 ```
 
-Default parameters:
-* --type img 
-* --detect False
-* --beta 1.5
+To change process video, detect object by yolo, beta
+
+```
+python main.py --type video --mlle --detect --beta [int]
+```
+
+or
+
+```
+python main.py  -t vid -m -d -b 2
+```
+
+parameters: 
+   - * --type video
+   - * --type vid
+   - * --type image
+   - * --type img
+
+   - * --mlle
+   - * -m
+
+   - * --detect
+   - * -d
+
+   - * --beta [int]
+   - * -b [int]
