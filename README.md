@@ -48,7 +48,7 @@ If you want to change the model please open the `main.py` file.
 # Usage example
 **Using the command line interface (CLI)**
 
-Use MLLE for image
+MLLE for image
 ```
 python main.py --mlle
 ```
@@ -62,13 +62,13 @@ python main.py -m
 Change to process video, detect object by yolo, beta
 
 ```
-python main.py --type video --mlle --detect --beta [int]
+python main.py --type video --mlle --detect --beta 2
 ```
 
 or
 
 ```
-python main.py -t vid -m -d -b [int]
+python main.py -t vid -m -d -b 2
 ```
 
 parameters: 
@@ -80,5 +80,5 @@ parameters:
    - --detect
    - -d
 
-   - --beta [int]
-   - -b [int]
+   - --beta [int, float]
+   - -b [int, float]
