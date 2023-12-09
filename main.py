@@ -41,7 +41,7 @@ def run():
         for path in files:
             is_run = False
             cap = cv2.VideoCapture(path)
-            fps = int(cap.get(cv2.CAP_PROP_FPS))
+            fps = cap.get(cv2.CAP_PROP_FPS)
             w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
             h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
             out = cv2.VideoWriter(os.path.join(output_path, os.path.basename(path)), cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))

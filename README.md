@@ -1,4 +1,4 @@
-# Underwater image correct and adaptive contrast enhancemention python
+# Underwater image color correction and adaptive contrast enhancemention and yolo detect python
 The original uses matlab and it p-code.
 
 I used python to restore more than 80% of the algorithms in the paper.
@@ -15,6 +15,9 @@ And added a method to exchange wrong channels.
 [UIEB dataset](https://li-chongyi.github.io/proj_benchmark.html)
 
 # Preview
+
+[Preview Video](https://www.youtube.com/watch?v=DxaS2R58Tyg)
+
 <img src="https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/38.png_reslut.jpg" height=70% width=70% />
 
 <img src="https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/906_img_.png_reslut.jpg" height=70% width=70% />
@@ -65,7 +68,7 @@ python main.py --type video --mlle --detect --beta [int]
 or
 
 ```
-python main.py  -t vid -m -d -b [int]
+python main.py -t vid -m -d -b [int]
 ```
 
 parameters: 
