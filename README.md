@@ -59,7 +59,7 @@ or
 python main.py -m
 ```
 
-To change process video, detect object by yolo, beta
+Change to process video, detect object by yolo, beta
 
 ```
 python main.py --type video --mlle --detect --beta [int]
