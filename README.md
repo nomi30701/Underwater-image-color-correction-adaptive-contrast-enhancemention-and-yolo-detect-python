@@ -39,11 +39,11 @@ pip install -r requirements.txt
 # How to use
 Put the image(.jpg .png) or .mp4 in the `Input` folder.
 
-If you want to change the model please open the `main.py` file.
-
 This repo provides models for detecting sea turtles and sea urchins.
 
-You can use yourself model supported by ultralytics.
+If you want to change the model please open the `main.py` file.
+
+`model = YOLO('to/your/model/path')`
 
 # Usage example
 **Using the command line interface (CLI)**
