@@ -6,12 +6,14 @@ def fusion(input_img):
     input[0, 1]
     output[0, 1]
     '''
-
+    sigma = 20
+    ksize = 4 * sigma + 1
+    
     ## blur
-    Igauss_blurred = cv2.GaussianBlur(input_img, (81, 81), 20)
+    Igauss_blurred = cv2.GaussianBlur(input_img, (ksize, ksize), 20)
     
     ## Norm
-    gain = 0.1
+    gain = 0.4
     Norm = (input_img - gain * Igauss_blurred)
 
     ## Histogram Equalization
