@@ -11,6 +11,7 @@ For contrast enhancement, this repo have fusion method that can replace LACE.
 * Paper:
 [Underwater Image Enhancement via Minimal Color Loss and Locally Adaptive Contrast Enhancement](https://ieeexplore.ieee.org/document/9788535).
 
+* Paper:
 [Color Balance and Fusion for Underwater Image Enhancement](https://ieeexplore.ieee.org/document/8058463)
 
 * Source matlab code:
