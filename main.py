@@ -3,8 +3,8 @@ import glob
 import argparse
 import cv2
 from ultralytics import YOLO
-from MLLE.LACC import LACC
-from MLLE.LACE import LACE
+from utils.LACC import LACC
+from utils.LACE import LACE
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--type', type=str, default='img', choices=['image', 'img', 'video', 'vid'])

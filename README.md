@@ -3,10 +3,15 @@ The original uses matlab and it p-code.
 
 I used python to restore more than 80% of the algorithms in the paper.
 
-And added a method to exchange wrong channels.
+And i add a method to exchange wrong channels problem.
+
+For contrast enhancement, this repo have fusion method that can replace LACE.
+
 
 * Paper:
 [Underwater Image Enhancement via Minimal Color Loss and Locally Adaptive Contrast Enhancement](https://ieeexplore.ieee.org/document/9788535).
+
+[Color Balance and Fusion for Underwater Image Enhancement](https://ieeexplore.ieee.org/document/8058463)
 
 * Source matlab code:
 [MLLE](https://github.com/Li-Chongyi/MMLE_code)
