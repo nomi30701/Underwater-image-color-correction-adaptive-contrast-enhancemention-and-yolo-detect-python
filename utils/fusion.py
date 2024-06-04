@@ -13,7 +13,7 @@ def fusion(input_img):
     Igauss_blurred = cv2.GaussianBlur(input_img, (ksize, ksize), 20)
     
     ## Norm
-    gain = 0.4
+    gain = 0.3
     Norm = (input_img - gain * Igauss_blurred)
 
     ## Histogram Equalization
@@ -28,6 +28,8 @@ def fusion(input_img):
     I_gamma = np.power(input_img, gamma)
     
     ## BGR to Lab
+    I_sharp = I_sharp.astype(np.float32)
+    I_gamma = I_sharp.astype(np.float32)
     I_sharp_lab = cv2.cvtColor(I_sharp, cv2.COLOR_BGR2Lab)
     I_gamma_lab = cv2.cvtColor(I_gamma, cv2.COLOR_BGR2Lab)
 

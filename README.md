@@ -59,37 +59,25 @@ If you want to change the model please open the `main.py` file.
 # Usage example
 **Using the command line interface (CLI)**
 
-MLLE for image
+Choose mode MLLE or LACC+fusion
 ```
-python main.py --mlle
+python main.py --mode mlle
 ```
 
 or
 
 ```
-python main.py -m
+python main.py -m fusion
 ```
 
 Change to process video, detect object by yolo, beta
 
 ```
-python main.py --type video --mlle --detect --beta 2
+python main.py --type video --mode mlle --detect --beta 2
 ```
 
 or
 
 ```
-python main.py -t vid -m -d -b 2
+python main.py -t vid -m mlle -d -b 2
 ```
-
-parameters: 
-   - --type or -t ['img', 'image', 'vid', 'video']
-
-   - --mlle
-   - -m
-
-   - --detect
-   - -d
-
-   - --beta [int, float]
-   - -b [int, float]
