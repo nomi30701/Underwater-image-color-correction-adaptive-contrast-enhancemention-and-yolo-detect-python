@@ -19,7 +19,8 @@ def run():
     
     folder_path = './Input'
     output_path = './Output'
-    model = YOLO('./model/turtle.pt')  ## CHANGE MODEL PATH HERE ##
+    if not args.detect:
+        model = YOLO('./model/turtle.pt')  ## CHANGE MODEL PATH HERE ##
 
     # img
     if args.type in ['img', 'image']:

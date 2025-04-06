@@ -42,6 +42,7 @@ This repo Webpage: [MLLE-webpage](https://nomi30701.github.io/Underwater-image-c
 <img src="https://github.com/nomi3070/Underwater-image-correct-and-adaptive-contrast-enhancemention-python/blob/main/Preview%20image/image%20(8).png_reslut.jpg" height=70% width=70% />
 
 # Requirements
+python version 3.12.9 ✅
 ```
 pip install -r requirements.txt
 ```
